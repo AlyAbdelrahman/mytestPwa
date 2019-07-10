@@ -1,0 +1,18 @@
+{
+    "name": "exapmle-pwa",
+    "version": "1.0.0",
+    "description": "A simple PWA",
+    "main": "index.html",
+    "scripts": {
+        "start": "http-server -c-l -p 8081"
+    },
+    "keywords": [
+        "PWA"
+    ],
+    "author": "alyyyy",
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {
+        "http-server": "^0.11.1"
+    }
+}

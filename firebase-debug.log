@@ -1,0 +1,53 @@
+[debug] [2019-07-10T14:10:40.513Z] ----------------------------------------------------------------------
+[debug] [2019-07-10T14:10:40.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aly.abdelrahman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-07-10T14:10:40.516Z] CLI Version:   7.0.2
+[debug] [2019-07-10T14:10:40.516Z] Platform:      win32
+[debug] [2019-07-10T14:10:40.516Z] Node Version:  v10.15.3
+[debug] [2019-07-10T14:10:40.518Z] Time:          Wed Jul 10 2019 16:10:40 GMT+0200 (Eastern European Standard Time)
+[debug] [2019-07-10T14:10:40.518Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-10T14:10:40.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-10T14:10:40.533Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Pwa Poc\netflix.github.com
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-07-10T14:11:33.723Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-10T14:11:33.723Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-10T14:11:34.053Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-10T14:11:34.103Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-07-10T14:11:34.745Z] <<< HTTP RESPONSE 200
+[info] i  Using project myawsomeapp-da8ef (myawsomeapp)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html
+[debug] [2019-07-10T14:12:13.112Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-07-10T14:12:13.500Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1051:34)
+    at TLSSocket.emit (events.js:189:13)
+    at TLSSocket.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket._finishInit (_tls_wrap.js:633:8)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
